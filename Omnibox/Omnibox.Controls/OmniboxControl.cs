@@ -15,6 +15,9 @@ namespace Omnibox.Controls
 	    public OmniboxControl()
 	    {
 			InitializeComponent();
+
+		    TextBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+			TextBox.AutoCompleteCustomSource = new AutoCompleteStringCollection();
 		}
 	    #endregion
 
@@ -27,7 +30,10 @@ namespace Omnibox.Controls
 			    throw new ArgumentNullException("keywords");
 		    }
 
-		    throw new NotImplementedException();
+		    foreach (var keyword in keywords)
+		    {
+				TextBox.AutoCompleteCustomSource.Add(keyword.Value);	    
+		    }
 	    }
 	    #endregion
     }
