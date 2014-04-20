@@ -17,5 +17,13 @@ namespace Omnibox.Controls
 			InitializeComponent();
 		}
 	    #endregion
+
+
+	    #region Public Methods
+	    public void AddKeywords(IEnumerable<IKeyword> keywords)
+	    {
+		    throw new NotImplementedException();
+	    }
+	    #endregion
     }
 }

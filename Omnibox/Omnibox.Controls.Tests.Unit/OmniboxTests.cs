@@ -22,8 +22,10 @@ namespace Omnibox.Controls.Tests.Unit
 		}
 
 		[Test]
-		public void OmniboxControl_Test()
+		public void OmniboxControl_AddKeywords_Null_ThrowsException()
 		{
+			var omnibox = new OmniboxControl();
+			Assert.Throws<ArgumentNullException>(() => omnibox.AddKeywords(null));
 		}
     }
 }

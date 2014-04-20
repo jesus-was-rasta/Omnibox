@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IKeyword.cs" />
     <Compile Include="OmniboxControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
