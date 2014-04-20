@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnibox.Controls", "Omnibox.Controls\Omnibox.Controls.csproj", "{27F1F721-87CC-4E32-93F1-8E57B5751AC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnibox.Controls.Tests.Unit", "Omnibox.Controls.Tests.Unit\Omnibox.Controls.Tests.Unit.csproj", "{DB3B4742-70D4-4758-AEDD-CAE0228A3AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27F1F721-87CC-4E32-93F1-8E57B5751AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F1F721-87CC-4E32-93F1-8E57B5751AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F1F721-87CC-4E32-93F1-8E57B5751AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3B4742-70D4-4758-AEDD-CAE0228A3AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3B4742-70D4-4758-AEDD-CAE0228A3AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3B4742-70D4-4758-AEDD-CAE0228A3AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3B4742-70D4-4758-AEDD-CAE0228A3AF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

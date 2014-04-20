@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Omnibox.Controls
 {
-    public partial class UserControl1: UserControl
+    public partial class OmniboxControl: UserControl
     {
-        public UserControl1()
+        public OmniboxControl()
         {
             InitializeComponent();
         }
