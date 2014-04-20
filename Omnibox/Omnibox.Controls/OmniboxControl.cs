@@ -11,9 +11,11 @@ namespace Omnibox.Controls
 {
     public partial class OmniboxControl: UserControl
     {
-        public OmniboxControl()
-        {
-            InitializeComponent();
-        }
+	    #region Constructors
+	    public OmniboxControl()
+	    {
+			InitializeComponent();
+		}
+	    #endregion
     }
 }
