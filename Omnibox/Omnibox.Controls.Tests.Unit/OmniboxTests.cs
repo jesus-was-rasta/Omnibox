@@ -1,16 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿#region Usings
+using System;
 
 using NUnit.Framework;
+
+
+#endregion
 
 
 namespace Omnibox.Controls.Tests.Unit
 {
 	[TestFixture]
-    public class OmniboxTests
-    {
+	public class OmniboxTests
+	{
 		[SetUp]
 		public void SetUp()
 		{
@@ -27,5 +28,5 @@ namespace Omnibox.Controls.Tests.Unit
 			var omnibox = new OmniboxControl();
 			Assert.Throws<ArgumentNullException>(() => omnibox.AddKeywords(null));
 		}
-    }
+	}
 }

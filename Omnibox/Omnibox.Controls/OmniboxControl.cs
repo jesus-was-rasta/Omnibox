@@ -22,6 +22,11 @@ namespace Omnibox.Controls
 	    #region Public Methods
 	    public void AddKeywords(IEnumerable<IKeyword> keywords)
 	    {
+		    if (keywords == null)
+		    {
+			    throw new ArgumentNullException("keywords");
+		    }
+
 		    throw new NotImplementedException();
 	    }
 	    #endregion
